@@ -1,5 +1,5 @@
 {
-  "name": "solana-mcp",
+  "name": "solana-mcp-sendai-hackathon",
   "version": "1.0.0",
   "description": "A Model Context Protocol server for interacting with the Solana blockchain, powered by the [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit)",
   "main": "build/index.js",
@@ -17,24 +17,30 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sendaifun/solana-mcp"
+    "url": "https://github.com/cryptoleek/solana-mcp-sendai-hackathon.git"
   },
   "keywords": [
     "solana",
     "mcp",
     "solana-agent-kit",
     "solana-mcp"
-  ],  
-  "author": "sendaifun",
+  ],
+  "author": "cryptoleek",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.5.0",
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "@solana/spl-memo": "^0.2.5",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
     "dotenv": "^16.4.7",
+    "helius-sdk": "^1.4.2",
     "solana-agent-kit": "1.4.8",
     "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^22.13.4",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   },
   "packageManager": "pnpm@9.14.2"
